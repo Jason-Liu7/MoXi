@@ -1,0 +1,65 @@
+线路创建过程可能耗时几分钟。 配置完线路后，可以使用 Azure 门户查看属性。 你将看到“线路状态”已启用，这意味着线路的 Microsoft 端已准备好接受连接。 “提供商状态”最初将是“未设置”。 这是因为提供商尚未配置其线路端以连接到你的网络。
+提供商状态报告为“已预配”后，即可配置对等互连的路由
+请向服务提供商发送“服务密钥”字段中的值，以使其能够配置连接。 这可能需要几天的时间。 可以重新访问此页面以检查提供商状态。
+ 
+
+Link
+将虚拟网络连接到 ExpressRoute 线路
+
+Docs Learn 浏览 使用 ExpressRoute 将本地网络连接到 Microsoft 全球网络 介绍
+https://docs.microsoft.com/zh-cn/learn/modules/connect-on-premises-network-with-expressroute/1-introduction
+
+ 
+https://www.cnblogs.com/zangdalei/p/7815049.html
+ 
+可可加 azure
+
+课程 AZ-700T00: Designing and Implementing Microsoft Azure Networking Solutions
+https://docs.microsoft.com/zh-cn/learn/certifications/courses/az-700t00
+
+
+ 
+https://docs.microsoft.com/zh-cn/previous-versions/msdn10/dn760701(v=msdn.10)
+
+
+
+微软虚拟学院 MVA - IT 专业人员在线培训课程
+
+
+Docs Learn 浏览 实现 Windows Server 混合云基础结构 实现混合网络基础结构 实现 Azure ExpressRoute
+https://docs.microsoft.com/zh-cn/learn/modules/implement-hybrid-network-infrastructure/5-implement-azure-expressroute
+
+
+AZ-700 设计和实现 Microsoft Azure 网络解决方案
+https://docs.microsoft.com/zh-cn/learn/paths/design-implement-microsoft-azure-networking-solutions-az-700/
+
+
+创建新的 ExpressRoute 线路
+将服务密钥发送给连接服务提供商进行预配
+定期检查线路密钥的状态
+将虚拟网络链接到 ExpressRoute 线路
+使用 Azure 门户配置 ExpressRoute 的虚拟网络网关
+
+多云时代，海外微软Azure云与国内阿里云专线打通性能测试
+
+
+将 VNet 连接到线路 - 不同订阅
+https://docs.microsoft.com/zh-cn/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager
+
+
+将虚拟网络连接到 ExpressRoute 线路
+将不同订阅中的虚拟网络连接到线路
+
+
+Note
+
+如果服务提供商提供第 3 层且对等互连在门户中为空，请使用门户中的刷新按钮来刷新线路配置。 此操作会将正确的线路配置应用到你的线路。
+
+
+Note
+
+如果第 3 层提供商配置了你的对等互连，则 BGP 配置信息不会显示。 如果线路处于已预配状态，应该能够创建连接。
+
+
+
+https://www.qedev.com/cloud/132329.html
